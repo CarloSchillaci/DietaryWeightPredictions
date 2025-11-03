@@ -1,4 +1,4 @@
-## 📝 Project Description
+## Project Description
 
 This project focuses on developing and comparing predictive models to estimate the **Final Weight (lbs)** of subjects in a dietary study. The dataset includes demographic, lifestyle, physiological (BMR, caloric intake), and weight change variables.
 
@@ -23,17 +23,17 @@ The data was rigorously prepared through:
 
 ---
 
-## 💾 README for the Predictive Weight Modeling Project
+## README for the Predictive Weight Modeling Project
 
 ---
 
-## ⚖️ Predictive Modeling for Final Weight in Dietary Study
+## Predictive Modeling for Final Weight in Dietary Study
 
 This repository contains the analysis for the Supervised Learning Midterm Project, which focuses on developing robust predictive models to estimate the **Final Weight (lbs)** of participants in a dietary study. The analysis thoroughly explores the dataset, addresses data quality issues, and compares various linear and regularization models under different feature conditions.
 
 ---
 
-### 🎯 Key Project Goals
+### Key Project Goals
 
 1.  Predict the target variable: **Final Weight (lbs)**.
 2.  Evaluate the predictive value of **Basal Metabolic Rate (BMR)**, comparing model performance with and without its inclusion.
@@ -42,7 +42,7 @@ This repository contains the analysis for the Supervised Learning Midterm Projec
 
 ---
 
-### 💡 Core Findings
+### Core Findings
 
 | Area | Insight | Citation |
 | :--- | :--- | :--- |
@@ -54,7 +54,7 @@ This repository contains the analysis for the Supervised Learning Midterm Projec
 
 ---
 
-### 🔧 Data Preparation and Modeling Steps
+### Data Preparation and Modeling Steps
 
 1.  **Data Quality:** Handled missing values through KNN/regression imputation for **Gender** and calculation for **Daily Caloric Surplus/Deficit**. Outliers in core features were mostly **retained** to prevent biasing the weight-change model].
 2.  **Feature Engineering:** Numerical features were **standardized**; categorical features were mapped using **binary, ordinal, and one-hot encoding** where appropriate to preserve interpretability and structure.
